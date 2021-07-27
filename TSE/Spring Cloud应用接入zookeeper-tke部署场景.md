@@ -30,7 +30,7 @@ Spring Cloud 应用需要使用如下的配置接入Zookeeper 注册中心：
 spring:
   cloud:
     zookeeper:
-      connect-string: x.x.x.x:2181
+      connect-string: [zookeeper注册中心IP:2181]
       discovery:
         register: true
         enabled: true
