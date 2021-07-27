@@ -3,9 +3,12 @@
 本文介绍如何将cvm部署的Spring Cloud 应用接入微服务引擎托管的zookeeper注册中心。接入无需修改任何代码。
 ## 前提条件
 1.已创建CVM实例。具体操作请参见[CVM实例创建指引](https://cloud.tencent.com/document/product/213/44264)。
+
 2.已准备Spring Cloud应用Jar包。我们同时为您提供了Spring Cloud应用demo代码库：
 [Demo 代码仓库 >>](https://github.com/tencentyun/tse-simple-demo)
+
 3.已上传Spring Cloud应用Jar包至CVM实例。
+
 4.已在[腾讯云微服务引擎控制台](https://console.cloud.tencent.com/tse)创建zookeeper注册中心实例，且该注册中心实例与上传应用的CVM实例处于同一VPC内。具体操作请参见[创建微服务引擎实例](https://cloud.tencent.com/document/product/1364/58416)。
 ## 操作步骤
 ### 1. 获取 TSE 注册中心实例访问地址
