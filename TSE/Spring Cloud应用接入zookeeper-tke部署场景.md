@@ -1,6 +1,6 @@
 # Spring Cloud应用接入zookeeper-tke部署场景
 ## 操作场景
-本文介绍如何将tke部署的Spring Cloud 应用接入微服务引擎托管的zookeeper注册中心。接入无需修改任何代码。
+本文介绍如何将通过tke部署的Spring Cloud 应用接入微服务引擎托管的zookeeper注册中心。接入无需修改任何代码。
 ## 前提条件
 1.已创建TKE容器集群。具体操作请参见[创建TKE集群](https://cloud.tencent.com/document/product/457/32189)。
 
