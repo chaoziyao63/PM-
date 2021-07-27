@@ -15,7 +15,7 @@
 </dx-alert>
 
 
-5.已在[腾讯云微服务引擎控制台](https://console.cloud.tencent.com/tse)创建zookeeper注册中心实例，且该注册中心实例与上传应用的CVM实例处于同一VPC内。具体操作请参见[创建微服务引擎实例](https://cloud.tencent.com/document/product/1364/58416)。
+5.已在[腾讯云微服务引擎控制台](https://console.cloud.tencent.com/tse)创建zookeeper注册中心实例，且该注册中心实例与上传应用的TKE容器集群处于同一VPC内。具体操作请参见[创建微服务引擎实例](https://cloud.tencent.com/document/product/1364/58416)。
 ## 操作步骤
 ### 1. 获取 TSE Zookeeper注册中心实例访问地址
 可以在[腾讯云微服务引擎控制台](https://console.cloud.tencent.com/tse)复制。
