@@ -12,8 +12,8 @@
 创建zookeeper注册中心实例时，若不开启公网访问，则所选定的VPC需要与tem已创建的环境的VPC保持一致。
 </dx-alert>
 
-3.在[腾讯云弹性微服务控制台](https://console.cloud.tencent.com/tem)点击进入环境详情页，一键关联TSE中的Zookeeper注册中心。
-
+3.在[腾讯云弹性微服务控制台](https://console.cloud.tencent.com/tem)点击环境名，进入基本信息页，一键关联TSE中的Zookeeper注册中心。
+![](https://main.qcloudimg.com/raw/ed95c9e3282710777c3a0367031b3a8c.png)
 
 7.验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
 ![](https://main.qcloudimg.com/raw/2f9befc1fee7efbbcd30542cbf3728fb.png)
