@@ -1,4 +1,4 @@
-# Spring Cloud应用接入zookeeper-cvm部署场景
+# Spring Cloud应用接入eureka-cvm部署场景
 ## 操作场景
 本文介绍如何将通过cvm部署的Spring Cloud 应用接入微服务引擎托管的eureka注册中心。接入无需修改任何代码。
 ## 操作步骤
