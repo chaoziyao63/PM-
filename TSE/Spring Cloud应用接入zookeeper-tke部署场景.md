@@ -13,7 +13,7 @@
 4.已在[腾讯云微服务引擎控制台](https://console.cloud.tencent.com/tse)创建zookeeper注册中心实例。具体操作请参见[创建微服务引擎实例](https://cloud.tencent.com/document/product/1364/58416)。
 
 <dx-alert infotype="explain" title="">
-创建zookeeper注册中心实例时，需选定与TKE容器集群同一VPC。
+创建zookeeper注册中心实例时，若不开启公网访问，则需选定与TKE容器集群同一VPC。
 </dx-alert>
 
 5.zookeeper注册中心实例创建成功后，在TSE控制台获取 TSE Zookeeper注册中心实例访问IP。
