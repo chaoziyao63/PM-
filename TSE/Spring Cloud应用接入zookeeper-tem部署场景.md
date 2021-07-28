@@ -15,7 +15,9 @@
 3.在[腾讯云弹性微服务控制台](https://console.cloud.tencent.com/tem)点击环境名，进入基本信息页，一键关联TSE中的Zookeeper注册中心。
 ![](https://main.qcloudimg.com/raw/ed95c9e3282710777c3a0367031b3a8c.png)
 
-7.验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
+4.在[腾讯云弹性微服务控制台](https://console.cloud.tencent.com/tem)创建应用，并部署至所创建的环境。具体操作请参见[创建并部署应用](https://cloud.tencent.com/document/product/1371/53294)。
+
+5.在[腾讯云微服务引擎控制台](https://console.cloud.tencent.com/tse）中验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
 ![](https://main.qcloudimg.com/raw/2f9befc1fee7efbbcd30542cbf3728fb.png)
 
 ## 注意事项
