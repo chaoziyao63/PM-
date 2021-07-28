@@ -24,8 +24,8 @@
 创建工作负载时，需将环境变量JAVA_OPTS指定为-Deureka.client.serviceUrl.defaultZone=http://[TSE Eureka注册中心实例访问IP:8761]/eureka/ 
 </dx-alert>
 
-7.验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
-![](https://main.qcloudimg.com/raw/2f9befc1fee7efbbcd30542cbf3728fb.png)
+7.在[TSE控制台](https://console.cloud.tencent.com/tse)验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
+![](https://main.qcloudimg.com/raw/43368b4a90fa23a8cf733de286b4c1d9.png)
 ## 注意事项
 Spring Cloud 应用接入eureka注册中心，配置文件格式需如下所示：
 
