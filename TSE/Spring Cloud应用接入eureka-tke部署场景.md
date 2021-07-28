@@ -27,17 +27,8 @@
 7.验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
 ![](https://main.qcloudimg.com/raw/2f9befc1fee7efbbcd30542cbf3728fb.png)
 ## 注意事项
-Spring Cloud 应用接入Zookeeper 注册中心，配置文件格式需如下所示：
+Spring Cloud 应用接入eureka注册中心，配置文件格式需如下所示：
 
-```
-spring:
-  cloud:
-    zookeeper:
-      connect-string: [zookeeper注册中心IP:2181]
-      discovery:
-        register: true
-        enabled: true
-        prefer-ip-address: true
 ```
 eureka:
   client:
@@ -45,3 +36,5 @@ eureka:
       defaultZone: http://[eureka注册中心实例访问IP:8761]/eureka/
   instance:
     prefer-ip-address: true
+```
+
