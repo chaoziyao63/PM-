@@ -1,5 +1,5 @@
 
-# Spring Cloud应用接入zookeeper-cvm部署场景
+# Spring Cloud应用接入zookeeper-tem部署场景
 ## 操作场景
 本文介绍如何将通过tem部署的Spring Cloud 应用接入微服务引擎托管的zookeeper注册中心。接入无需修改任何代码。
 ## 操作步骤
