@@ -21,7 +21,7 @@
 6.在TKE容器集群中创建工作负载并选择对应镜像文件。具体操作请参见[Deployment管理](https://cloud.tencent.com/document/product/457/31705)。
 
 <dx-alert infotype="explain" title="">
-创建工作负载时，需将环境变量JAVA_OPTS指定为-Dspring.cloud.zookeeper.connect-string=[TSE Zookeeper注册中心实例访问IP:2181]
+创建工作负载时，需将环境变量JAVA_OPTS指定为-Deureka.client.serviceUrl.defaultZone=http://[TSE Eureka注册中心实例访问IP:8761]/eureka/ 
 </dx-alert>
 
 7.验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
@@ -39,3 +39,9 @@ spring:
         enabled: true
         prefer-ip-address: true
 ```
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://[eureka注册中心实例访问IP:8761]/eureka/
+  instance:
+    prefer-ip-address: true
