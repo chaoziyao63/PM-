@@ -11,17 +11,21 @@
 3.上传Spring Cloud应用镜像文件至TKE镜像仓库。具体操作请参见[镜像仓库快速入门](https://cloud.tencent.com/document/product/1141/50332#null)。
 
 4.已在[腾讯云微服务引擎控制台](https://console.cloud.tencent.com/tse)创建zookeeper注册中心实例。具体操作请参见[创建微服务引擎实例](https://cloud.tencent.com/document/product/1364/58416)。
+
 <dx-alert infotype="explain" title="">
 创建zookeeper注册中心实例时，需选定与TKE容器集群同一VPC。
 </dx-alert>
+
 5.zookeeper注册中心实例创建成功后，在TSE控制台获取 TSE Zookeeper注册中心实例访问IP。
 
 6.已在TKE容器集群中创建工作负载并选择对应镜像文件。具体操作请参见[Deployment管理](https://cloud.tencent.com/document/product/457/31705)。
+
 <dx-alert infotype="explain" title="">
 创建工作负载时，需将环境变量JAVA_OPTS指定为-Dspring.cloud.zookeeper.connect-string=[TSE Zookeeper注册中心实例访问IP:2181]
 </dx-alert>
-7.验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
 
+7.验证服务注册。点击进入注册中心实例的服务管理页面，若出现以下页面，则证明服务注册成功。
+![](https://main.qcloudimg.com/raw/2f9befc1fee7efbbcd30542cbf3728fb.png)
 ## 注意事项
 Spring Cloud 应用接入Zookeeper 注册中心，配置文件格式需如下所示：
 
